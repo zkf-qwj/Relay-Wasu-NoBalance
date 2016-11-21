@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSDSAuthModule/DSWrappers
+END
+DSBuffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSDSAuthModule/DSWrappers/DSBuffer.cpp
+END
+DSDataList.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSDSAuthModule/DSWrappers/DSDataList.h
+END
+CDirService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSDSAuthModule/DSWrappers/CDirService.cpp
+END
+DSBuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSDSAuthModule/DSWrappers/DSBuffer.h
+END
+CDirService.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSDSAuthModule/DSWrappers/CDirService.h
+END
+DSDataNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSDSAuthModule/DSWrappers/DSDataNode.h
+END

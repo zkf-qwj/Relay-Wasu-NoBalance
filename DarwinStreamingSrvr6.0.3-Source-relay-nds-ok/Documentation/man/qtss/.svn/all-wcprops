@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/Documentation/man/qtss
+END
+createuserstreamingdir.8
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/Documentation/man/qtss/createuserstreamingdir.8
+END
+QuickTimeStreamingServer.8
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/Documentation/man/qtss/QuickTimeStreamingServer.8
+END
+qtpasswd.1
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/Documentation/man/qtss/qtpasswd.1
+END
+MP3Broadcaster.1
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/Documentation/man/qtss/MP3Broadcaster.1
+END
+streamingadminserver.pl.8
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/Documentation/man/qtss/streamingadminserver.pl.8
+END
+PlaylistBroadcaster.1
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/Documentation/man/qtss/PlaylistBroadcaster.1
+END
+StreamingLoadTool.8
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/Documentation/man/qtss/StreamingLoadTool.8
+END

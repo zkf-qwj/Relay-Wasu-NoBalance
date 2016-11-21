@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSHomeDirectoryModule
+END
+QTSSHomeDirectoryModule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSHomeDirectoryModule/QTSSHomeDirectoryModule.cpp
+END
+DirectoryInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSHomeDirectoryModule/DirectoryInfo.cpp
+END
+QTSSHomeDirectoryModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSHomeDirectoryModule/QTSSHomeDirectoryModule.h
+END
+DirectoryInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSHomeDirectoryModule/DirectoryInfo.h
+END
+createuserstreamingdir
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSHomeDirectoryModule/createuserstreamingdir
+END
+Makefile.POSIX
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSHomeDirectoryModule/Makefile.POSIX
+END

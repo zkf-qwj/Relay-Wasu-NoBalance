@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WebAdmin
+END
+streamingadminserver_Darwin.conf
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WebAdmin/streamingadminserver_Darwin.conf
+END
+streamingadminserver_autostart.conf
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WebAdmin/streamingadminserver_autostart.conf
+END
+perlpath.pl
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WebAdmin/perlpath.pl
+END
+streamingadminserver.pem
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WebAdmin/streamingadminserver.pem
+END
+streamingadminserver.conf
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WebAdmin/streamingadminserver.conf
+END
+streamingadminserver_NT.conf
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WebAdmin/streamingadminserver_NT.conf
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSDemoRedirectModule.bproj
+END
+QTSSDemoRedirectModule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSDemoRedirectModule.bproj/QTSSDemoRedirectModule.cpp
+END
+QTSSDemoRedirectModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSDemoRedirectModule.bproj/QTSSDemoRedirectModule.h
+END
+Makefile.POSIX
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSDemoRedirectModule.bproj/Makefile.POSIX
+END

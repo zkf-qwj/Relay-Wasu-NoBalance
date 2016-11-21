@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib
+END
+QTFile_FileControlBlock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTFile_FileControlBlock.cpp
+END
+QTAtom_elst.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_elst.h
+END
+QTHintTrack.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTHintTrack.h
+END
+QTAtom_stco.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_stco.h
+END
+QTAtom.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom.cpp
+END
+QTAtom_stsc.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_stsc.h
+END
+QTAtom_mdhd.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_mdhd.h
+END
+QTAtom_stsd.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_stsd.h
+END
+QTAtom_hinf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_hinf.cpp
+END
+QTAtom_dref.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_dref.h
+END
+QTRTPFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTRTPFile.cpp
+END
+QTTrack.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTTrack.h
+END
+QTAtom_tkhd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_tkhd.cpp
+END
+QTAtom_stts.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_stts.cpp
+END
+QTAtom_stss.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_stss.h
+END
+QTAtom_mvhd.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_mvhd.h
+END
+QTFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTFile.h
+END
+QTAtom_tref.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_tref.h
+END
+QTAtom_elst.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_elst.cpp
+END
+QTHintTrack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTHintTrack.cpp
+END
+QTAtom_stsz.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_stsz.h
+END
+Makefile.POSIX
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/Makefile.POSIX
+END
+QTAtom_stco.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_stco.cpp
+END
+QTAtom_mdhd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_mdhd.cpp
+END
+QTAtom_stsc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_stsc.cpp
+END
+QTAtom_stsd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_stsd.cpp
+END
+QTFile_FileControlBlock.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTFile_FileControlBlock.h
+END
+QTAtom_dref.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_dref.cpp
+END
+QTTrack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTTrack.cpp
+END
+QTAtom.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom.h
+END
+QTAtom_hinf.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_hinf.h
+END
+QTFileLib.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTFileLib.dsp
+END
+QTRTPFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTRTPFile.h
+END
+QTAtom_stss.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_stss.cpp
+END
+QTAtom_mvhd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_mvhd.cpp
+END
+QTFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTFile.cpp
+END
+QTAtom_tkhd.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_tkhd.h
+END
+QTAtom_tref.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_tref.cpp
+END
+QTAtom_stts.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_stts.h
+END
+QTAtom_stsz.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/QTFileLib/QTAtom_stsz.cpp
+END

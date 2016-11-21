@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSRawFileModule.bproj
+END
+QTSSRawFileModule.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSRawFileModule.bproj/QTSSRawFileModule.dsp
+END
+QTSSRawFileModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSRawFileModule.bproj/QTSSRawFileModule.h
+END
+README-RawFileModule
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSRawFileModule.bproj/README-RawFileModule
+END
+QTSSRawFileModule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSRawFileModule.bproj/QTSSRawFileModule.cpp
+END
+sampleredirect.raw
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSRawFileModule.bproj/sampleredirect.raw
+END
+Makefile.POSIX
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSRawFileModule.bproj/Makefile.POSIX
+END

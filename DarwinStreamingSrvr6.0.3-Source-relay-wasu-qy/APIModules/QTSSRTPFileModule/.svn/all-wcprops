@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSRTPFileModule
+END
+RTPFileSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSRTPFileModule/RTPFileSession.h
+END
+QTSSRTPFileModule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSRTPFileModule/QTSSRTPFileModule.cpp
+END
+RTPFileSession.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSRTPFileModule/RTPFileSession.cpp
+END
+QTSSRTPFileModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSRTPFileModule/QTSSRTPFileModule.h
+END

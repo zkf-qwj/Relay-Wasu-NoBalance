@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/HTTPUtilitiesLib
+END
+HTTPProtocol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/HTTPUtilitiesLib/HTTPProtocol.cpp
+END
+HTTPProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/HTTPUtilitiesLib/HTTPProtocol.h
+END
+HTTPRequest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/HTTPUtilitiesLib/HTTPRequest.cpp
+END
+HTTPRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/HTTPUtilitiesLib/HTTPRequest.h
+END
+Makefile.POSIX
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/HTTPUtilitiesLib/Makefile.POSIX
+END

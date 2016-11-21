@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSAccessLogModule
+END
+QTSSAccessLogModule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSAccessLogModule/QTSSAccessLogModule.cpp
+END
+QTSSAccessLogModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSAccessLogModule/QTSSAccessLogModule.h
+END

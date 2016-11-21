@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/APICommonCode
+END
+QTSS3GPPModuleUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/APICommonCode/QTSS3GPPModuleUtils.h
+END
+QTSSModuleUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/APICommonCode/QTSSModuleUtils.cpp
+END
+SourceInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/APICommonCode/SourceInfo.h
+END
+QTSSRollingLog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/APICommonCode/QTSSRollingLog.cpp
+END
+SDPSourceInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/APICommonCode/SDPSourceInfo.cpp
+END
+QTAccessFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/APICommonCode/QTAccessFile.cpp
+END
+QTSSModuleUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/APICommonCode/QTSSModuleUtils.h
+END
+QTSSRollingLog.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/APICommonCode/QTSSRollingLog.h
+END
+SDPSourceInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/APICommonCode/SDPSourceInfo.h
+END
+QTAccessFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/APICommonCode/QTAccessFile.h
+END
+QTSS3GPPModuleUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/APICommonCode/QTSS3GPPModuleUtils.cpp
+END
+SourceInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/APICommonCode/SourceInfo.cpp
+END
+QTSSMemoryDeleter.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/APICommonCode/QTSSMemoryDeleter.h
+END

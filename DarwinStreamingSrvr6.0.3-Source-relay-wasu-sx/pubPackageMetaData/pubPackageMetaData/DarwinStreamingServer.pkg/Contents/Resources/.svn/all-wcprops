@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/pubPackageMetaData/pubPackageMetaData/DarwinStreamingServer.pkg/Contents/Resources
+END
+fix_movie_folder_privs
+K 25
+svn:wc:ra_dav:version-url
+V 200
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/pubPackageMetaData/pubPackageMetaData/DarwinStreamingServer.pkg/Contents/Resources/fix_movie_folder_privs
+END
+VolumeCheck
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/pubPackageMetaData/pubPackageMetaData/DarwinStreamingServer.pkg/Contents/Resources/VolumeCheck
+END
+release_version
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/pubPackageMetaData/pubPackageMetaData/DarwinStreamingServer.pkg/Contents/Resources/release_version
+END
+killqtss
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/pubPackageMetaData/pubPackageMetaData/DarwinStreamingServer.pkg/Contents/Resources/killqtss
+END
+updateplaylists
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/pubPackageMetaData/pubPackageMetaData/DarwinStreamingServer.pkg/Contents/Resources/updateplaylists
+END
+postinstall
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/pubPackageMetaData/pubPackageMetaData/DarwinStreamingServer.pkg/Contents/Resources/postinstall
+END
+postupgrade
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/pubPackageMetaData/pubPackageMetaData/DarwinStreamingServer.pkg/Contents/Resources/postupgrade
+END
+preinstall
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/pubPackageMetaData/pubPackageMetaData/DarwinStreamingServer.pkg/Contents/Resources/preinstall
+END
+removeprefs
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/pubPackageMetaData/pubPackageMetaData/DarwinStreamingServer.pkg/Contents/Resources/removeprefs
+END
+preupgrade
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/pubPackageMetaData/pubPackageMetaData/DarwinStreamingServer.pkg/Contents/Resources/preupgrade
+END
+restart_qtss
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/pubPackageMetaData/pubPackageMetaData/DarwinStreamingServer.pkg/Contents/Resources/restart_qtss
+END

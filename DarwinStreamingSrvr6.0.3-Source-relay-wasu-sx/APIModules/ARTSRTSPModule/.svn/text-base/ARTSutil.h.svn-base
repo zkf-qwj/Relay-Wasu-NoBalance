@@ -1,0 +1,66 @@
+#ifndef ARTS_UTIL_H
+#define ARTS_UTIL_H
+
+
+
+typedef struct  range_list_t
+{
+    int64_t range_time;
+    bool receive_response;
+    bool receive_data;
+    range_list_t * next;
+}range_list_t;
+
+typedef struct 
+{
+    void *receive_pkts_thread;
+    void * RTSPSessionObj;
+    void *RTPSessionObj;  
+    void *OwnRTSPSessionObj; 
+    int need_send_packet_num;
+    int64_t  buf_duration;  
+    FILE *ifd;
+    FILE *ofd;     
+    int64_t seek_start_dts;
+    int64_t pause_time;
+    int64_t last_pts;
+    bool    seek;
+    int64_t duration; 
+    int64_t last_recv_PCR;
+    bool supportOtherChannel;
+    bool seek_start;
+    int64_t send_idel_time;
+    char rangeHeader_global[256];      
+    int64_t pkt_timestamp;
+    bool adapter_unregister;
+    bool play_responsed;   
+    void *sendEv;
+    bool  isIpqam; 
+    /*used for yz-hd annouce,wasu setparameter*/
+    char sessionID[256];
+    int cseq;
+    char uri[1024]; 
+     
+    void *tsctx;
+    bool del_pcr_flag;
+    int64_t first_pkt_pts;//the first_pkt's pts when pause play
+    int64_t last_keyframe_pts;
+    int64_t  offset;        //the offset between  last_keyframe  and cur ts_packet 
+    bool supportPTS;    
+    int waite_time;
+    bool pause;
+    int64_t pause_start_time;
+    int64_t first_keyframe_pts; //the video_stream's first keyframes pts,will be invariant in whole session
+    bool play_idel;
+    int64_t first_pts;//used for pause
+    bool pause_ready;
+    bool copy_range;
+   
+}custom_struct_t;
+
+#define DEFAULT_PROVIDER_NAME   "Cnstream"
+#define DEFAULT_SERVICE_NAME    "Service01"
+#define PAT_PID                 0x0000
+#define SDT_PID                 0x0011
+#define SDT_TID                 0x42
+#endif

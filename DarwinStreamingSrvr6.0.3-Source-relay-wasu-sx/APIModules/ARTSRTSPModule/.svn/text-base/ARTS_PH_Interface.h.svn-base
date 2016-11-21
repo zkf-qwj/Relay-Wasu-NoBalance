@@ -1,0 +1,80 @@
+#ifndef _ARTS_PH_Interface_H
+#define _ARTS_PH_Interface_H
+
+extern "C" {
+#include "fdevent.h"
+#include "arts_ph_common.h"
+}
+
+typedef struct
+{
+    char sessionID[256];
+    TCPSocket *sock;
+    bool     used;
+    void     *next;
+    RTSPSession  *rtspSessObj;
+    RTPSession   *rtpSessObj;   
+}co_socket_t;
+
+typedef struct 
+{
+    int callid;
+    int fd;
+    void *next;
+} mult_util_t;//multicast_struct
+
+
+
+
+
+typedef struct event_node
+{
+    int callid;
+    int events;
+    int64_t stop_time;   //at the time of this obj->fd unregister
+    void *next;
+    bool unregister ;
+    void *sess;
+    int fd;
+}event_node_t;
+
+
+
+class ARTS_PH_Interface : public OSThread
+{
+public:
+    ARTS_PH_Interface();
+    ~ARTS_PH_Interface();
+    bool Configure(char *pBackends,char * pBindHost ,UInt16 lport);
+    virtual void Entry();
+
+    fdevents *ev;           /* Event handlers */
+    arts_controlfd_state_t control_state;/* State of Controller Connection */
+    int callid;                         /* Call Id for incoming call */
+    unsigned char phid;                 /* PH ID assigned by the controller */
+    iosocket *controlsock;              /* iosocket for SCTP to Controller */
+    int controllertimeout;              /* Number of seconds to wait before retrying controller */
+    int listenport;                     /* Port for Listening to SCTP connections */
+    iosocket *listensock;               /* iosocket for Listening */   
+    int polltimeout; 
+    char tmpbuffer[ARTS_IPC_MAX_ENCODED_PDU_SIZE+1];
+    int tmpbuf_len;
+    //char tmpbuffer[3948];
+    OSMutex sessionMutex;
+    co_socket_t* co_socket_list;
+    co_socket_t* last_co_socket;
+    event_node_t * stop_events;
+    event_node_t * last_stop_event;
+    mult_util_t *mult_util_list;
+    mult_util_t * last_util;
+    bool lock;
+private:
+    void Trigger();
+    struct sockaddr_in servaddr;    /* ARTS Controller Address */
+    
+    
+};
+
+ARTS_PH_Interface *sARTSPHInterface = NULL;
+
+#endif

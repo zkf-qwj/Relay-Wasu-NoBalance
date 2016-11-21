@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/cnstream/!svn/ver/2179/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source
+END
+sample_h264_1mbit.mp4
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/sample_h264_1mbit.mp4
+END
+streamingserver.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/streamingserver.xml
+END
+sample.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/sample.mp3
+END
+relayconfig.xml-Sample
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/relayconfig.xml-Sample
+END
+parseServerOut.py
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/parseServerOut.py
+END
+gdbplay
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/gdbplay
+END
+PlatformHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cnstream/!svn/ver/2173/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/PlatformHeader.h
+END
+gdbserver
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/gdbserver
+END
+UpdateDSSInstallerDocs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/UpdateDSSInstallerDocs
+END
+clean_dss_osx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/clean_dss_osx
+END
+revision.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/revision.h
+END
+Buildit
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cnstream/!svn/ver/2173/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/Buildit
+END
+prepare_config.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/prepare_config.sh
+END
+dss_license_tool.pl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/dss_license_tool.pl
+END
+APPLE_LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APPLE_LICENSE
+END
+qtaccess
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/qtaccess
+END
+Install
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/Install
+END
+Jamfile
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/Jamfile
+END
+ReleaseNotes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/ReleaseNotes.txt
+END
+sample_100kbit.mov
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/sample_100kbit.mov
+END
+gdbmp3
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/gdbmp3
+END
+sample_300kbit.mov
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/sample_300kbit.mov
+END
+sample_h264_100kbit.mp4
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/sample_h264_100kbit.mp4
+END
+Makefile.POSIX
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cnstream/!svn/ver/2173/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/Makefile.POSIX
+END
+streamingserver.xml-POSIX
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/streamingserver.xml-POSIX
+END
+dobuildit
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/dobuildit
+END
+sample_h264_300kbit.mp4
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/sample_h264_300kbit.mp4
+END
+gdb_script
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/gdb_script
+END
+run_darwin.sh
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cnstream/!svn/ver/1229/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/run_darwin.sh
+END
+clean
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/clean
+END
+deleteWinBuildDirs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/deleteWinBuildDirs
+END
+gdbdar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/gdbdar
+END
+qtgroups
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/qtgroups
+END
+sample_50kbit.3gp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/sample_50kbit.3gp
+END
+DSS_MakeRoot
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/DSS_MakeRoot
+END
+buildproxytarballx
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/buildproxytarballx
+END
+clean.sh
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/clean.sh
+END
+DSS_MakeProxyRoot
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/DSS_MakeProxyRoot
+END
+jamplay
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/jamplay
+END
+deleteCVSdirs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/deleteCVSdirs
+END
+buildtarball
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/buildtarball
+END
+qtusers
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/qtusers
+END
+setup_arts_darwin.sh
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cnstream/!svn/ver/2176/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/setup_arts_darwin.sh
+END
+uninstalldss4
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/uninstalldss4
+END
+uninstallqtss4
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/uninstallqtss4
+END
+BuildOSXInstallerPkg
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/BuildOSXInstallerPkg
+END
+defaultPaths.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/defaultPaths.h
+END
+sample_100kbit.mp4
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/sample_100kbit.mp4
+END
+deleteSVNdirs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/deleteSVNdirs
+END
+sample_300kbit.mp4
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/sample_300kbit.mp4
+END

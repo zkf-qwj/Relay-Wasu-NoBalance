@@ -1,0 +1,44 @@
+<!-- This is a sample relay config file.  -->
+<!-- *** Need to add a valid dtd here. *** -->
+<RELAY_CONFIG>
+
+	<!-- RELAY-CONFIG should contain one or more objects of type relay -->
+	<OBJECT TYPE="relay">
+
+		<!-- if enabled is set to false, the server will ignore this relay -->
+		<!-- (optional, defaults to true) -->
+		<PREF NAME="enabled">true</PREF>
+
+		<!-- Each relay object contains one source object and multiple destination objects -->
+
+		<OBJECT CLASS="source" TYPE="announced_source">
+			<!-- this is the address of the broadcaster -->
+			<PREF NAME="source_addr">192.168.1.212</PREF>
+			<!-- this is the url to listen for.  If not specified, it will -->
+			<!-- relay any announced broadcast from the source address to -->
+			<!-- the specified destinations (optional) -->
+			<PREF NAME="rtsp_port">554</PREF>
+			<PREF NAME="url">/camera/test-tcp.sdp</PREF>
+		</OBJECT>
+
+        <OBJECT CLASS="destination" TYPE="udp_destination">
+			<!-- out_addr is the local address to send from (optional) -->
+			<PREF NAME="out_addr">192.168.1.120</PREF>
+			<!-- dest_addr is the address to stream to (can be multicast address) -->
+			<PREF NAME="dest_addr">192.168.1.212</PREF>
+			<!-- udp_ports are the ports to stream to -->
+			<!-- (must match config on destination server) -->
+			<LIST-PREF NAME="udp_ports">
+				<VALUE>5000</VALUE>
+				<VALUE>5002</VALUE>
+			</LIST-PREF>
+			<!-- time to live for a multicast destination -->
+			<!-- (only needed if address is multicast) -->
+			<PREF NAME="ttl">5</PREF>
+		</OBJECT>
+	</OBJECT>
+
+
+</RELAY_CONFIG>
+
+

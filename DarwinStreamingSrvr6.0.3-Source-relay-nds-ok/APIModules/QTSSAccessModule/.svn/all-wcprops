@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSAccessModule
+END
+QTSSAccessModule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSAccessModule/QTSSAccessModule.cpp
+END
+AccessChecker.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSAccessModule/AccessChecker.cpp
+END
+QTSSAccessModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSAccessModule/QTSSAccessModule.h
+END
+AccessChecker.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSAccessModule/AccessChecker.h
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cnstream/!svn/ver/2173/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIStubLib
+END
+QTSS.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIStubLib/QTSS.h
+END
+APIStubLib.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIStubLib/APIStubLib.dsp
+END
+QTSS_Private.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIStubLib/QTSS_Private.cpp
+END
+QTSS_Private.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIStubLib/QTSS_Private.h
+END
+QTSSRTSPProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/cnstream/!svn/ver/2173/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIStubLib/QTSSRTSPProtocol.h
+END
+makefile.apistublib.POSIX
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIStubLib/makefile.apistublib.POSIX
+END
+BuildAPIStubLib
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIStubLib/BuildAPIStubLib
+END

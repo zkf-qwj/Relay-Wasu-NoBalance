@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/PrefsSourceLib
+END
+nilib2.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/PrefsSourceLib/nilib2.c
+END
+FilePrefsSource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/PrefsSourceLib/FilePrefsSource.cpp
+END
+XMLParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/PrefsSourceLib/XMLParser.h
+END
+XMLPrefsParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/PrefsSourceLib/XMLPrefsParser.h
+END
+NetInfoPrefsSource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/PrefsSourceLib/NetInfoPrefsSource.cpp
+END
+nilib2.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/PrefsSourceLib/nilib2.h
+END
+FilePrefsSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/PrefsSourceLib/FilePrefsSource.h
+END
+PrefsSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/PrefsSourceLib/PrefsSource.h
+END
+NetInfoPrefsSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/PrefsSourceLib/NetInfoPrefsSource.h
+END
+XMLParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/PrefsSourceLib/XMLParser.cpp
+END
+XMLPrefsParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/PrefsSourceLib/XMLPrefsParser.cpp
+END

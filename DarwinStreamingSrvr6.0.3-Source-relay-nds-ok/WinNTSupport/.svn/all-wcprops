@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WinNTSupport
+END
+streamingserver.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WinNTSupport/streamingserver.xml
+END
+relayconfig.xml-Sample
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WinNTSupport/relayconfig.xml-Sample
+END
+Win32header.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WinNTSupport/Win32header.h
+END
+WinPasswdAssistant.pl
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WinNTSupport/WinPasswdAssistant.pl
+END
+StreamingServer.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WinNTSupport/StreamingServer.dsp
+END
+makeZip.bat
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WinNTSupport/makeZip.bat
+END
+qtusers
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WinNTSupport/qtusers
+END
+Install.bat
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WinNTSupport/Install.bat
+END
+StreamingServer.dsw
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WinNTSupport/StreamingServer.dsw
+END
+Readme-MakeInstall.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WinNTSupport/Readme-MakeInstall.txt
+END

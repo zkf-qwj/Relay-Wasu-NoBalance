@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WebAdmin/StartupItems.bproj
+END
+StartupParameters.plist
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WebAdmin/StartupItems.bproj/StartupParameters.plist
+END
+QuickTimeStreamingServer
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WebAdmin/StartupItems.bproj/QuickTimeStreamingServer
+END
+dummy.c
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/WebAdmin/StartupItems.bproj/dummy.c
+END

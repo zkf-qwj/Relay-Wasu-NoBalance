@@ -1,0 +1,298 @@
+/*
+ *
+ * @APPLE_LICENSE_HEADER_START@
+ *
+ * Copyright (c) 1999-2008 Apple Inc.  All Rights Reserved.
+ *
+ * This file contains Original Code and/or Modifications of Original Code
+ * as defined in and that are subject to the Apple Public Source License
+ * Version 2.0 (the 'License'). You may not use this file except in
+ * compliance with the License. Please obtain a copy of the License at
+ * http://www.opensource.apple.com/apsl/ and read it before using this
+ * file.
+ * 
+ * The Original Code and all software distributed under the License are
+ * distributed on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER
+ * EXPRESS OR IMPLIED, AND APPLE HEREBY DISCLAIMS ALL SUCH WARRANTIES,
+ * INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT.
+ * Please see the License for the specific language governing rights and
+ * limitations under the License.
+ * 
+ * @APPLE_LICENSE_HEADER_END@
+ *
+ */
+/*
+    File:       RTSPResponseStream.cpp
+
+    Contains:   Impelementation of object in .h
+    
+
+*/
+
+#include "RTSPResponseStream.h"
+#include "OSMemory.h"
+#include "OSArrayObjectDeleter.h"
+#include "StringTranslator.h"
+#include "OS.h"
+
+#include <errno.h>
+#include <sys/stat.h>
+
+
+QTSS_Error RTSPResponseStream::WriteV(iovec* inVec, UInt32 inNumVectors, UInt32 inTotalLength,
+                                            UInt32* outLengthSent, UInt32 inSendType)
+{
+    QTSS_Error theErr = QTSS_NoErr;
+    UInt32 theLengthSent = 0;
+    char tempbuf[kOutputDataBufferSizeInBytes];
+    UInt32 tempbufPtr =0;
+    UInt32   amtInBuffer =0;
+    //qtss_printf("fBytesSentInDataBuf:%d,this:%x\n",fBytesSentInDataBuf,this);
+    if((inSendType & qtssWriteFlagsBufferData) )
+    {
+        amtInBuffer  = fDataBufFormatter.GetCurrentOffset()-fBytesSentInDataBuf;
+        
+        //qtss_printf("amtInBuffer:%d",amtInBuffer);
+        if(amtInBuffer>0 &&  fDataBufFormatter.GetCurrentOffset()  ==0)
+        {
+            abort();
+        }
+            
+    }
+    else
+    { 
+      
+       amtInBuffer = this->GetCurrentOffset() - fBytesSentInBuffer;
+       //qtss_printf("amtInBuffer:%d\n",amtInBuffer);
+    }
+          
+    if (amtInBuffer > 0)
+    {
+
+        // There is some data in the output buffer. Make sure to send that
+        // first, using the empty space in the ioVec.
+        if(inSendType & qtssWriteFlagsBufferData)
+        {
+            inVec[0].iov_base = fDataBufFormatter.GetBufPtr() + fBytesSentInDataBuf;
+        }else            
+            inVec[0].iov_base = this->GetBufPtr() + fBytesSentInBuffer;
+       
+          inVec[0].iov_len =  amtInBuffer;
+        
+        if(fDataSocket != NULL && (inSendType & qtssWriteFlagsBufferData)){
+             theErr = fDataSocket->WriteV(inVec, inNumVectors, &theLengthSent);
+             //qtss_printf("fDataSocket->sock:%d,len:%d,inNumVectors:%d,theErr:%d,%"_64BITARG_"d\n",fDataSocket->fFileDesc,theLengthSent,inNumVectors,theErr,QTSS_Milliseconds());
+             //if(theErr == QTSS_NoErr)
+             //{
+             //   total_sent += theLengthSent;
+               // qtss_printf("fDataSocket->WriteV,total_send:%d,%"_64BITARG_"d\n\n",total_sent,QTSS_Milliseconds() );
+             //}
+        }else      
+            theErr = fSocket->WriteV(inVec, inNumVectors, &theLengthSent);
+                  
+
+        if (theLengthSent >= amtInBuffer)
+        {
+            // We were able to send all the data in the buffer. Great. Flush it.
+                     
+             if(inSendType & qtssWriteFlagsBufferData)
+            {   
+                fDataBufFormatter.Reset();
+                fBytesSentInDataBuf = 0;
+            }else
+            {
+                 this->Reset();
+                fBytesSentInBuffer =0;
+             }
+            // Make theLengthSent reflect the amount of data sent in the ioVec
+            theLengthSent -= amtInBuffer;
+        }
+        else
+        {
+            // Uh oh. Not all the data in the buffer was sent. Update the
+            // fBytesSentInBuffer count, and set theLengthSent to 0.
+                       
+            if(inSendType & qtssWriteFlagsBufferData)
+            { 
+                fBytesSentInDataBuf += theLengthSent;
+                Assert(fBytesSentInBuffer < fDataBufFormatter.GetCurrentOffset());
+                //qtss_printf("fBytesSentInDataBuf:%d,sent:%d,curoffset:%d,%"_64BITARG_"d\n",fBytesSentInDataBuf,theLengthSent,fDataBufFormatter.GetCurrentOffset(),QTSS_Milliseconds());
+               
+            }else
+            {
+                fBytesSentInBuffer += theLengthSent;
+                Assert(fBytesSentInBuffer < this->GetCurrentOffset());
+            }
+                       
+            theLengthSent = 0;
+        }
+        // theLengthSent now represents how much data in the ioVec was sent
+    }
+    else if (inNumVectors > 1)
+    {
+        if(fDataSocket != NULL && (inSendType & qtssWriteFlagsBufferData))
+        {
+           theErr = fDataSocket->WriteV(&inVec[1], inNumVectors - 1, &theLengthSent);
+          // if(theErr != QTSS_NoErr)
+                //qtss_printf("121 fDataSocket->writev,Err:%d\n",theErr);
+           //qtss_printf("121  fDataSocket->sock:%d,len:%d\n",fDataSocket->fFileDesc,theLengthSent);
+          // if(theErr == QTSS_NoErr)
+           //  {
+          //      total_sent += theLengthSent;
+          //      qtss_printf("121 fDataSocket->WriteV,total_send:%d\n",total_sent );
+           //  }
+        }else
+         theErr = fSocket->WriteV(&inVec[1], inNumVectors - 1, &theLengthSent);
+        
+    }
+    // We are supposed to refresh the timeout if there is a successful write.
+    if (theErr == QTSS_NoErr)
+        fTimeoutTask->RefreshTimeout();
+        
+    // If there was an error, don't alter anything, just bail
+    if ((theErr != QTSS_NoErr) && (theErr != EAGAIN))
+        return theErr;
+    
+    // theLengthSent at this point is the amount of data passed into
+    // this function that was sent.
+    if (outLengthSent != NULL)
+        *outLengthSent = theLengthSent;
+
+    // Update the StringFormatter fBytesWritten variable... this data
+    // wasn't buffered in the output buffer at any time, so if we
+    // don't do this, this amount would get lost
+    fBytesWritten += theLengthSent;
+    
+    // All of the data was sent... whew!
+   
+    if (theLengthSent == inTotalLength)
+        return QTSS_NoErr;
+    
+    // We need to determine now whether to copy the remaining unsent
+    // iovec data into the buffer. This is determined based on
+    // the inSendType parameter passed in.
+    if (inSendType == kDontBuffer)
+        return theErr;
+    if ((inSendType == kAllOrNothing) && (theLengthSent == 0))
+        return EAGAIN;
+        
+    // Some or none of the iovec data was sent. Copy the remainder into the output
+    // buffer.
+    
+    // The caller should consider this data sent.
+    if (outLengthSent != NULL)
+        *outLengthSent = inTotalLength;
+        
+    UInt32 curVec = 1;
+    while (theLengthSent >= inVec[curVec].iov_len)
+    {
+        // Skip over the vectors that were in fact sent.
+        Assert(curVec < inNumVectors);
+        theLengthSent -= inVec[curVec].iov_len;
+        curVec++;
+    }
+    
+   
+    
+    while (curVec < inNumVectors)
+    {       
+       if(inSendType & qtssWriteFlagsBufferData)
+       {           
+           fDataBufFormatter.Put(  ((char*)inVec[curVec].iov_base) + theLengthSent,
+                    inVec[curVec].iov_len - theLengthSent);
+                    
+           tempbufPtr += inVec[curVec].iov_len - theLengthSent;
+       }else
+       {
+         // Copy the remaining vectors into the buffer
+        this->Put(  ((char*)inVec[curVec].iov_base) + theLengthSent,
+                    inVec[curVec].iov_len - theLengthSent);
+       }
+       
+       theLengthSent = 0;      
+        curVec++;       
+    }
+    
+    if(tempbufPtr>0)
+    {    
+       //qtss_printf("left len:%d,this:%x\n",tempbufPtr,this);       
+    }    
+    
+    return QTSS_NoErr;
+}
+
+SInt64 RTSPResponseStream::GetLeftDataLen()
+{
+   SInt64 amtInDataBuffer  = fDataBufFormatter.GetCurrentOffset()-fBytesSentInDataBuf;
+   return amtInDataBuffer;
+}
+QTSS_Error RTSPResponseStream::FlushData()
+{
+   
+    UInt32 amtInDataBuffer  = fDataBufFormatter.GetCurrentOffset()-fBytesSentInDataBuf;
+    /*
+    if(amtInDataBuffer >0)
+    {
+        qtss_printf("amtInDataBuffer:%d,fDataSocket:%x\n",amtInDataBuffer,fDataSocket);
+    }
+    */
+    if(amtInDataBuffer >0 && fDataSocket != NULL)
+    {
+        UInt32 theLengthSent = 0;
+        (void)fDataSocket->Send(fDataBufFormatter.GetBufPtr() + fBytesSentInDataBuf, amtInDataBuffer, &theLengthSent);
+        qtss_printf("fDataSocket->Send len:%d,amtInDataBuffer:%d\n",theLengthSent,amtInDataBuffer);
+        if (theLengthSent >= amtInDataBuffer)
+        {
+            
+            // We were able to send all the data in the buffer. Great. Flush it.
+                     
+            // if(inSendType & qtssWriteFlagsBufferData)
+            {   
+                fDataBufFormatter.Reset();
+                fBytesSentInDataBuf = 0;
+            }
+         }else
+         {
+            fBytesSentInDataBuf += theLengthSent;
+             return EAGAIN;
+         }        
+    }
+}
+    
+    
+
+QTSS_Error RTSPResponseStream::Flush()
+{
+    qtss_printf("***Flush\n");
+    UInt32 amtInBuffer = this->GetCurrentOffset() - fBytesSentInBuffer;
+      
+    if (amtInBuffer > 0)
+    {
+       
+        UInt32 theLengthSent = 0;
+        //char * tmp =this->GetBufPtr() + fBytesSentInBuffer;
+        //qtss_printf("flush,data:%x,%x,%x,%x,%x,%x,%x,%x,%x,%x,%x,%x",tmp[0],tmp[1],tmp[2],tmp[3],tmp[4],tmp[5],tmp[6],tmp[7],tmp[8],tmp[9],tmp[10],tmp[11]);
+        (void)fSocket->Send(this->GetBufPtr() + fBytesSentInBuffer, amtInBuffer, &theLengthSent);
+        
+        // Refresh the timeout if we were able to send any data
+        if (theLengthSent > 0)
+            fTimeoutTask->RefreshTimeout();
+            
+        if (theLengthSent == amtInBuffer)
+        {
+            // We were able to send all the data in the buffer. Great. Flush it.
+            this->Reset();
+            fBytesSentInBuffer = 0;
+        }
+        else
+        {
+            // Not all the data was sent, so report an EAGAIN
+            
+            fBytesSentInBuffer += theLengthSent;
+            Assert(fBytesSentInBuffer < this->GetCurrentOffset());
+            return EAGAIN;
+        }
+    }
+    return QTSS_NoErr;
+}

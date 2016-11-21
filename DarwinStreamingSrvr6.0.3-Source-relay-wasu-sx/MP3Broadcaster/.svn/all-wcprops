@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cnstream/!svn/ver/1475/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/MP3Broadcaster
+END
+BroadcasterMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/MP3Broadcaster/BroadcasterMain.cpp
+END
+MP3Broadcaster.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/MP3Broadcaster/MP3Broadcaster.h
+END
+MP3FileBroadcaster.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/MP3Broadcaster/MP3FileBroadcaster.h
+END
+MP3BroadcasterLog.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/MP3Broadcaster/MP3BroadcasterLog.h
+END
+MP3MetaInfoUpdater.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/MP3Broadcaster/MP3MetaInfoUpdater.cpp
+END
+MP3Broadcaster.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/MP3Broadcaster/MP3Broadcaster.cpp
+END
+MP3FileBroadcaster.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/MP3Broadcaster/MP3FileBroadcaster.cpp
+END
+MP3BroadcasterLog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/MP3Broadcaster/MP3BroadcasterLog.cpp
+END
+MP3MetaInfoUpdater.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/MP3Broadcaster/MP3MetaInfoUpdater.h
+END
+MP3Broadcaster.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/MP3Broadcaster/MP3Broadcaster.dsp
+END
+Makefile.POSIX
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/cnstream/!svn/ver/1475/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/MP3Broadcaster/Makefile.POSIX
+END

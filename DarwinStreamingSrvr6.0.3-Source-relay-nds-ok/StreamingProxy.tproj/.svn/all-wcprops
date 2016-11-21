@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/StreamingProxy.tproj
+END
+shared_udp.c
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/StreamingProxy.tproj/shared_udp.c
+END
+streamingproxy.conf
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/StreamingProxy.tproj/streamingproxy.conf
+END
+BuildProxy
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/StreamingProxy.tproj/BuildProxy
+END
+get_opt.c
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/StreamingProxy.tproj/get_opt.c
+END
+proxy.c
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/StreamingProxy.tproj/proxy.c
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/StreamingProxy.tproj/util.h
+END
+shared_udp.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/StreamingProxy.tproj/shared_udp.h
+END
+proxy_unix.c
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/StreamingProxy.tproj/proxy_unix.c
+END
+get_opt.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/StreamingProxy.tproj/get_opt.h
+END
+proxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/StreamingProxy.tproj/proxy.h
+END
+proxy_plat.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/StreamingProxy.tproj/proxy_plat.h
+END
+Makefile.POSIX
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/StreamingProxy.tproj/Makefile.POSIX
+END
+StreamingProxy.html
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/StreamingProxy.tproj/StreamingProxy.html
+END
+util.c
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/StreamingProxy.tproj/util.c
+END

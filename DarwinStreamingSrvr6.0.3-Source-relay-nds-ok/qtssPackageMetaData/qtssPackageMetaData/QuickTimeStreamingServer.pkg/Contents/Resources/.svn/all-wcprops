@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/qtssPackageMetaData/qtssPackageMetaData/QuickTimeStreamingServer.pkg/Contents/Resources
+END
+fix_movie_folder_privs
+K 25
+svn:wc:ra_dav:version-url
+V 205
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/qtssPackageMetaData/qtssPackageMetaData/QuickTimeStreamingServer.pkg/Contents/Resources/fix_movie_folder_privs
+END
+release_version
+K 25
+svn:wc:ra_dav:version-url
+V 198
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/qtssPackageMetaData/qtssPackageMetaData/QuickTimeStreamingServer.pkg/Contents/Resources/release_version
+END
+killqtss
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/qtssPackageMetaData/qtssPackageMetaData/QuickTimeStreamingServer.pkg/Contents/Resources/killqtss
+END
+updateplaylists
+K 25
+svn:wc:ra_dav:version-url
+V 198
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/qtssPackageMetaData/qtssPackageMetaData/QuickTimeStreamingServer.pkg/Contents/Resources/updateplaylists
+END
+postinstall
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/qtssPackageMetaData/qtssPackageMetaData/QuickTimeStreamingServer.pkg/Contents/Resources/postinstall
+END
+postupgrade
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/qtssPackageMetaData/qtssPackageMetaData/QuickTimeStreamingServer.pkg/Contents/Resources/postupgrade
+END
+preinstall
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/qtssPackageMetaData/qtssPackageMetaData/QuickTimeStreamingServer.pkg/Contents/Resources/preinstall
+END
+removeprefs
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/qtssPackageMetaData/qtssPackageMetaData/QuickTimeStreamingServer.pkg/Contents/Resources/removeprefs
+END
+preupgrade
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/qtssPackageMetaData/qtssPackageMetaData/QuickTimeStreamingServer.pkg/Contents/Resources/preupgrade
+END

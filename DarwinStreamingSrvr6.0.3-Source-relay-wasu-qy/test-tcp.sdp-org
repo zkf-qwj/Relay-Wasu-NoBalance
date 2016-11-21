@@ -1,0 +1,12 @@
+v=0
+o=StreamingServer 3639281926 1428456723000 IN IP4 192.168.1.214
+s=/qq.mp4
+u=http:///
+e=admin@
+c=IN IP4 192.168.1.106
+b=AS:497
+t=0 0
+a=control:*
+a=range:npt=0-82800.00
+m=video 49184 MP2T TCP 33
+a=control:trackID=1

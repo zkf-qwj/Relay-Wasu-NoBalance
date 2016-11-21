@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSSpamDefenseModule.bproj
+END
+QTSSSpamDefenseModule.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSSpamDefenseModule.bproj/QTSSSpamDefenseModule.dsp
+END
+QTSSSpamDefenseModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSSpamDefenseModule.bproj/QTSSSpamDefenseModule.h
+END
+QTSSSpamDefenseModule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSSpamDefenseModule.bproj/QTSSSpamDefenseModule.cpp
+END
+Makefile.POSIX
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSSpamDefenseModule.bproj/Makefile.POSIX
+END

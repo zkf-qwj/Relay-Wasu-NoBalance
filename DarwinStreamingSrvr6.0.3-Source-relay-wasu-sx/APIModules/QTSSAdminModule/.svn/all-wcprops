@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cnstream/!svn/ver/2173/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSAdminModule
+END
+AdminQuery.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/cnstream/!svn/ver/2173/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSAdminModule/AdminQuery.cpp
+END
+QTSSAdminModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSAdminModule/QTSSAdminModule.h
+END
+AdminQuery.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSAdminModule/AdminQuery.h
+END
+AdminElementNode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/cnstream/!svn/ver/2173/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSAdminModule/AdminElementNode.cpp
+END
+QTSSAdminModule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSAdminModule/QTSSAdminModule.cpp
+END
+AdminElementNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSAdminModule/AdminElementNode.h
+END

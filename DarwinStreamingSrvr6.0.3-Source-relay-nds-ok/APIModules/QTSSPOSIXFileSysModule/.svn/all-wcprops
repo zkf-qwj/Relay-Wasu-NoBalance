@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSPOSIXFileSysModule
+END
+QTSSPosixFileSysModule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSPOSIXFileSysModule/QTSSPosixFileSysModule.cpp
+END
+QTSSPosixFileSysModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/cnstream/!svn/ver/1104/branches/centos-64/external/Darwin/DarwinStreamingSrvr6.0.3-Source/APIModules/QTSSPOSIXFileSysModule/QTSSPosixFileSysModule.h
+END
